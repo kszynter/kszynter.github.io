@@ -26,11 +26,9 @@ then this needs to match (private and public) key pair locally. They are by defa
 
 If you have any files there, they are named similar to this:
 
-{% highlight bash %}
-$ ls -1
-id_rsa
-id_rsa.pub
-{% endhighlight %}
+    $ ls -1
+    id_rsa
+    id_rsa.pub
 
 The one with a .pub suffix is a public key, and the other one is a private one. Both are what is called a key pair.
 You need to add the public one to your github account [2].
