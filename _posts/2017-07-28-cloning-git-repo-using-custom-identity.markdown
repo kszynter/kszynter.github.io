@@ -14,9 +14,7 @@ If you cannot clone your own github repository and you see 'Permission denied (p
     Please make sure you have the correct access rights
     and the repository exists.
 
-It's because there's a problem matching identities between github repository and your local computer.
-First of all go check if you have any (public) SSH keys added to your github account [1]. If you have,
-then this needs to match (private and public) key pair locally. They are by default stored in:
+It's because there's a problem matching identities between github repository and your local computer. First of all go check if you have any (public) SSH keys added to your github account [1]. If you have, then this needs to match (private and public) key pair locally. They are by default stored in:
 
     # windows
     C:\Users\%USERNAME%\.ssh
@@ -30,14 +28,11 @@ If you have any files there, they are named similar to this:
     id_rsa
     id_rsa.pub
 
-The one with a .pub suffix is a public key, and the other one is a private one. Both are what is called a key pair.
-You need to add the public one to your github account [2].
+The one with a .pub suffix is a public key, and the other one is a private one. Both are what is called a key pair. You need to add the public one to your github account [2].
 
-If you don't have any files there or even the folder doesn't exist then you have to create a new RSA key pair [3]
-and then add it to your github account [2].
+If you don't have any files there or even the folder doesn't exist then you have to create a new RSA key pair [3] and then add it to your github account [2].
 
-Finally, if the git still can't match the identities (for example you can have multiple key pairs) then you need to
-instruct git which one to use [4].
+Finally, if the git still can't match the identities (for example you can have multiple key pairs) then you need to instruct git which one to use [4].
 
 Links
 =
