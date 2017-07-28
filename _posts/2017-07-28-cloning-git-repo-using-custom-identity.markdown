@@ -6,25 +6,23 @@ categories:  ssh git github
 ---
 If you cannot clone your own github repository and you see 'Permission denied (publickey)' like this one:
 
-{% highlight bash %}
-$ git clone git@github.com:kszynter/kszynter.github.io.git
-Cloning into 'kszynter.github.io'...
-Permission denied (publickey).
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-{% endhighlight %}
+    $ git clone git@github.com:kszynter/kszynter.github.io.git
+    Cloning into 'kszynter.github.io'...
+    Permission denied (publickey).
+    fatal: Could not read from remote repository.
+    
+    Please make sure you have the correct access rights
+    and the repository exists.
 
 It's because there's a problem matching identities between github repository and your local computer.
 First of all go check if you have any (public) SSH keys added to your github account [1]. If you have,
 then this needs to match (private and public) key pair locally. They are by default stored in:
 
-# windows
-C:\Users\%USERNAME%\.ssh
+    # windows
+    C:\Users\%USERNAME%\.ssh
 
-# linux
-~/.ssh/
+    # linux
+    ~/.ssh/
 
 If you have any files there, they are named similar to this:
 
