@@ -42,6 +42,9 @@ instruct git which one to use [4].
 Links
 =
 [1] [github.com](https://github.com/settings/keys)
+
 [2] [github.com](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+
 [3] [github.com](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+
 [4] [superuser.com](https://superuser.com/a/232406)
