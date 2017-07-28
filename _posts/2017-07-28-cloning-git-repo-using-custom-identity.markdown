@@ -34,12 +34,15 @@ If you don't have any files there or even the folder doesn't exist then you have
 
 Finally, if the git still can't match the identities (for example you can have multiple key pairs) then you need to instruct git which one to use [4].
 
+While executing git clone command, git can still ask for a passphrase. It's the one you optionally set while generating a key pair:
+
+    $ git clone git@github.com:kszynter/kszynter.github.io.git
+    Cloning into 'kszynter.github.io'...
+    Enter passphrase for key '/c/Users/itsme/.ssh/krzysztof@szynter.pl':
+
 Links
 =
-[1] [github.com](https://github.com/settings/keys)
-
-[2] [github.com](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
-
-[3] [github.com](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
-
-[4] [superuser.com](https://superuser.com/a/232406)
+[1] [github - manage your SSH keys](https://github.com/settings/keys)<br />
+[2] [github - how to add a new SSH key](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)<br />
+[3] [github - how to generate a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)<br />
+[4] [superuser - how to define identity to host match](https://superuser.com/a/232406)
